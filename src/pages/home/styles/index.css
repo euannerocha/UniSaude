@@ -1,0 +1,148 @@
+body * {
+  font-family: "Montserrat", sans-serif;
+}
+
+.navbar {
+  max-width: 90vw;
+  width: 100%;
+  margin: 0 auto;
+}
+
+.imagem-logo > img {
+  width: 100%;
+  height: 100%;
+  max-height: 106px;
+  max-width: 320px;
+}
+
+main {
+  max-width: 90vw;
+  width: 100%;
+  margin: 100px auto 0;
+}
+
+.principal-content {
+  width: 100%;
+  display: grid;
+  grid-template-columns: 0.4fr 0.6fr;
+  gap: 42px;
+}
+
+.right-content {
+  max-width: 100%;
+}
+
+.right-content > img {
+  max-width: 100%;
+}
+
+.left-content {
+  display: flex;
+  justify-content: space-around;
+  flex-direction: column;
+  height: 90%;
+}
+
+.principal-text {
+  font-size: 53px;
+  font-weight: bold;
+}
+
+.todos {
+  color: #324054;
+}
+
+.button-dicas {
+  background-color: #cbdaf2;
+  border-radius: 12px;
+  border: 2px solid #324054;
+  padding: 11px 33px;
+  color: #324054;
+  font-size: 20px;
+  font-weight: bold;
+}
+
+.title {
+  max-width: 300px;
+  width: 100%;
+  border-bottom: 1px solid #324054;
+  text-align: center;
+  margin: 128px auto 120px;
+}
+
+.text-section-container p {
+  margin: 2rem auto;
+  text-align: justify;
+  font-size: 30px;
+}
+
+.depoimentos {
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr;
+  gap: 32px;
+}
+
+.depoimento {
+  width: 100%;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  background-color: #cbdaf2;
+  padding: 15px 20px;
+  text-align: justify;
+  border-radius: 12px;
+  margin-bottom: 100px;
+  margin-top:  96px;
+}
+
+.depoimento > img {
+  margin-top: -20%;
+}
+
+.name {
+  width: 100%;
+  text-align: left !important;
+}
+
+footer{
+    width: 100%;
+    max-width: 100vw;
+    background-color: #324054;
+    display: grid;
+    grid-template-columns: 0.4fr 0.6fr;
+    color: white;
+}
+
+.first-part{
+    width: 100%;
+    margin-left: 5vw;
+    margin-top: 50px;
+    margin-bottom: 50px;
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+}
+
+.first-part>p{
+    width: 50%;
+}
+
+.first-part>img{
+    width: 100%;
+    height: 100%;
+    max-width: 104px;
+    max-height: 104px;
+}
+
+.second-part{
+    display: flex;
+    flex-direction: column;
+    gap: 30px;
+    justify-content: center;
+}
+
+.second-part>a{
+    cursor: pointer;
+    text-decoration: none;
+    color: white;
+}
